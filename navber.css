@@ -1,0 +1,56 @@
+.navber{
+    display: flex;
+    justify-content: space-between;
+    padding: 65px;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.nav-menu{
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 50px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.banner-text{
+    margin-top: 120px;
+}
+.banner-title{
+    font-size: 3.3rem;
+    font-weight: bold;
+}
+.banner-title:hover{
+    color: slateblue;
+}
+.banner-description{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.banner-button{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    background-color: orange;
+    border-radius: 20px;
+}
+.banner-button:hover{
+    background-color: plum;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: space-evenly; 
+    /* border: 1px solid lightgray; */
+    margin: 5px 100px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
